@@ -1,0 +1,32 @@
+org.clojure/clojure 1.12.0
+  . org.clojure/spec.alpha 0.5.238
+  . org.clojure/core.specs.alpha 0.4.74
+cambium/cambium.core 1.1.1
+  . org.slf4j/slf4j-api 1.7.32
+  . org.clojure/tools.logging 1.2.2
+cambium/cambium.codec-cheshire 1.0.0
+  . cheshire/cheshire 5.10.0
+    X com.fasterxml.jackson.core/jackson-core 2.10.2 :older-version
+    . com.fasterxml.jackson.dataformat/jackson-dataformat-smile 2.10.2
+      X com.fasterxml.jackson.core/jackson-core 2.10.2 :older-version
+    . com.fasterxml.jackson.dataformat/jackson-dataformat-cbor 2.10.2
+      X com.fasterxml.jackson.core/jackson-core 2.10.2 :older-version
+    . tigris/tigris 0.1.2
+cambium/cambium.logback.json 0.4.6
+  . cambium/cambium.logback.core 0.4.6
+    . org.codehaus.janino/janino 3.1.10
+      . org.codehaus.janino/commons-compiler 3.1.10
+    . ch.qos.logback/logback-classic 1.2.12
+      . ch.qos.logback/logback-core 1.2.12
+      . org.slf4j/slf4j-api 1.7.32
+    . ch.qos.logback/logback-core 1.2.12
+  . com.fasterxml.jackson.core/jackson-core 2.15.2
+  . com.fasterxml.jackson.core/jackson-databind 2.15.2
+    . com.fasterxml.jackson.core/jackson-annotations 2.15.2
+    . com.fasterxml.jackson.core/jackson-core 2.15.2
+  . ch.qos.logback.contrib/logback-json-classic 0.1.5
+    X ch.qos.logback/logback-classic 1.1.3 :older-version
+    . ch.qos.logback.contrib/logback-json-core 0.1.5
+      X ch.qos.logback/logback-core 1.1.3 :older-version
+  . ch.qos.logback.contrib/logback-jackson 0.1.5
+    . ch.qos.logback.contrib/logback-json-core 0.1.5

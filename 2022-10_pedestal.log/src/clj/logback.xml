@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+
+<configuration debug="true" scan="true" scanPeriod="30 seconds">
+    <import class="ch.qos.logback.core.ConsoleAppender"/>
+    <import class="ch.qos.logback.classic.encoder.PatternLayoutEncoder"/>
+    <import class="net.logstash.logback.encoder.LogstashEncoder"/>
+
+    <!-- <appender name="console" class="ConsoleAppender"> -->
+    <!--     <encoder class="PatternLayoutEncoder"> -->
+    <!--         <pattern>%date %-5level [%thread] %logger{20} - %msg %kvp{DOUBLE} %marker {%mdc}%n</pattern> -->
+    <!--     </encoder> -->
+    <!-- </appender> -->
+
+    <appender name="console-json" class="ConsoleAppender">
+        <encoder class="LogstashEncoder"/>
+    </appender>
+
+    <root level="INFO">
+        <!-- <appender-ref ref="console"/> -->
+        <appender-ref ref="console-json"/>
+    </root>
+</configuration>

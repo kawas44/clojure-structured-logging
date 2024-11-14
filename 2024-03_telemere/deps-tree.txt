@@ -1,0 +1,9 @@
+org.clojure/clojure 1.12.0
+  . org.clojure/spec.alpha 0.5.238
+  . org.clojure/core.specs.alpha 0.4.74
+com.taoensso/telemere 1.0.0-RC1
+  . com.taoensso/encore 3.127.0
+    . org.clojure/tools.reader 1.5.0
+    . com.taoensso/truss 1.12.0
+com.taoensso/telemere-slf4j 1.0.0-RC1
+org.clojure/data.json 2.5.0
